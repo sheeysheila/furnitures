@@ -1,0 +1,56 @@
+body{
+    display:list-item;
+    align-items:flex-start;
+    height: 100vh;
+    width: 50vh;
+    justify-content: center;
+}
+.panel{
+    height: 80vh;
+    margin: 10px;
+    border-radius: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex: 0.5;
+    color:black;
+    position: relative;
+    cursor: pointer;
+    transition: all 1000ms ease-in;
+}
+.panel.active{
+    flex: 5;
+}
+.panel.active h2{
+    opacity: 1;
+    transition:opacity 1s ease-in;
+
+}
+
+.panel h2{
+    position:absolute;
+    bottom: 200px;
+    padding-left: 300px;
+    left: 15px;
+    opacity: 0;
+}
+.container{
+    display: flex;
+    width: 90vw;
+}
+#image-1{
+    background-image: url(./q-1.webp);}
+#image-2{
+    background-image: url(./Adjustable-Heavy-Duty-or-Medical-Tilt-Top-Overbed-Table.webp);
+}
+#image-3{
+    background-image: url(./IMG-20210917-WA0020.webp);
+}
+#image-4{
+    background-image: url(./patio\ page.jpg);
+
+}
+#image-1{
+    background-image: url(./bellvern\ banner.jpg);
+}
+
